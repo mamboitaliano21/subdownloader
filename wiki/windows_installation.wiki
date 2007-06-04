@@ -1,0 +1,14 @@
+#summary How to install and run SubDownloader on Windows
+
+
+= Method 1: Installer =
+
+Download and install Windows Installer 1.2.9
+
+= Method 2: From sources =
+
+    * Install python 2.5
+    * Install wxpython 2.8.3
+    * Install imdbpy 2.9
+    * Download and uncompress the last 1.2.9 sources
+    * Run Subdownloader.py 
