@@ -10,7 +10,7 @@
 
 =Method 1: Download last sources=
 
-Download and uncompress the last 1.2.9 sources from here
+Download and uncompress the last 1.2.9 sources from [http://subdownloader.googlecode.com/files/sources.1.2.9.zip here]
 
     Run #python Subdownloader.py
 
@@ -24,4 +24,3 @@ then run:
 
     # apt-get update
     # apt-get install subdownloader
-
