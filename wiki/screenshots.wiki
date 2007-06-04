@@ -1,6 +1,6 @@
 = Screenshots =
 
-http://subdownloader.files.wordpress.com/2007/02/fig2.png
+http://subdownloader.files.wordpress.com/2007/02/fig2.PNG
 http://subdownloader.files.wordpress.com/2007/02/fig1.png
-http://subdownloader.files.wordpress.com/2007/02/imdb.jpg
-http://subdownloader.files.wordpress.com/2007/03/options.png
+http://subdownloader.files.wordpress.com/2007/02/imdb.JPG
+http://subdownloader.files.wordpress.com/2007/03/options.PNG
