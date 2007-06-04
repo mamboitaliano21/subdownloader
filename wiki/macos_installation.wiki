@@ -6,9 +6,9 @@
 http://subdownloader.googlecode.com/files/sources.1.2.9.zip
 
 ===Extract the package using a unarchiver or the command line===
-
+{{{
 # unzip ./SubDownloader1.2.3.src.zip
-
+}}}
 ===Download and install python from here(this package also works on PPC)===
 
 http://www.python.org/ftp/python/2.4.3/Universal-MacPython-2.4.3-2006-04-07.dmg
@@ -22,13 +22,13 @@ http://www.wxpython.org/download.php#binaries
 http://prdownloads.sourceforge.net/imdbpy/IMDbPY-2.8.tar.gz
 
 Use the console and extract and install:
-
+{{{
 # cd <dir where you downloaded IMDbPY>
 # tar xvzf ./IMDbPY-2.8.tar.gz
 # python ./setup.py install
-
+}}}
 ===Run SubDownloader, I do this from command line, not sure if it works by clicking:===
-
+{{{
 # python ./SubDownloader.py
-
+}}}
 Good luck and keep uploading these subtitles + hashes!
