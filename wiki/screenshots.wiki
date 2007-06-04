@@ -1,6 +1,6 @@
 = Screenshots =
 
-http://subdownloader.googlecode.com/files/options.png
 http://subdownloader.googlecode.com/files/main.png
+http://subdownloader.googlecode.com/files/options.png
 http://subdownloader.googlecode.com/files/imdb.jpg
 http://subdownloader.googlecode.com/files/context_menu.png
