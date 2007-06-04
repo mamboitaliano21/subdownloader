@@ -4,7 +4,7 @@
 =Requisites=
 
     * python 2.5
-    * wxGTK 2.8 (.deb)
+    * wxGTK 2.8 [http://www.wxpython.org/download.php#binaries (.deb)] 
     * imdbpy
     * mmpython 
 
