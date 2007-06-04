@@ -1,0 +1,34 @@
+#summary How to install and run SubDownloader on MacOS
+
+
+1.Download the source files, I did this from this location:
+
+http://subdownloader.googlecode.com/files/sources.1.2.9.zip
+
+Extract the package using a unarchiver or the command line:
+
+# unzip ./SubDownloader1.2.3.src.zip
+
+2. Download and install python from here(this package also works on PPC):
+
+http://www.python.org/ftp/python/2.4.3/Universal-MacPython-2.4.3-2006-04-07.dmg
+
+3. Download and install wxPython from here(make sure you pick the unicode 2.4 version for you architecture):
+
+http://www.wxpython.org/download.php#binaries
+
+4. Download IMDbPY source tarball from here:
+
+http://prdownloads.sourceforge.net/imdbpy/IMDbPY-2.8.tar.gz
+
+Use the console and extract and install:
+
+# cd <dir where you downloaded IMDbPY>
+# tar xvzf ./IMDbPY-2.8.tar.gz
+# python ./setup.py install
+
+5. Run SubDownloader, I do this from command line, not sure if it works by clicking:
+
+# python ./SubDownloader.py
+
+Good luck and keep uploading these subtitles + hashes!
