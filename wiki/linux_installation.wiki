@@ -5,22 +5,11 @@
 
     * python 2.5
     * python-wxgtk2.8 [http://www.wxpython.org/download.php#binaries (.deb)] 
-    * imdbpy
-    * mmpython 
+    * python-imdbpy
+    * python-mmpython 
 
-=Method 1: Download last sources=
+=Download last sources=
 
 Download and uncompress the last 1.2.9 sources from [http://subdownloader.googlecode.com/files/sources.1.2.9.zip here]
 
     Run #python Subdownloader.py
-
-=Method 2: .deb package for DEBIAN,UBUNTU,ETC=
-
-(as root) Add this line to your /etc/apt/sources.list
-
-    deb http://www.vinalinux.com/projects/subdownloader/repository/ ./
-
-then run:
-
-    # apt-get update
-    # apt-get install subdownloader
