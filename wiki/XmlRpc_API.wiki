@@ -370,9 +370,9 @@ Example output:
 data - array of enabled subtitle languages. SubLanguageID - iso639-2 3 characters code of language. LanguageName - translated language name. ISO639 - ISO639-1 2 characters code.
 
 == GetAvailableTranslations ==
-*array GetAvailableTranslations( $token )*
+*array GetAvailableTranslations( $token, $program )*
 
-Returns array of available translations for a program. In array you can find date of last created string and number of strings.
+Returns array of available translations for a program. In array you can find date of last created string and number of strings. Current supported programs are 'subdownloader' and 'oscar'
 
 Example output:
 {{{
