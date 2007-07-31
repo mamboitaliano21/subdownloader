@@ -397,9 +397,9 @@ Example output:
 no need to explain
 
 == GetTranslation ==
-*array GetTranslation( $token, $iso639, $format )*
+*array GetTranslation( $token, $iso639, $format, $program )*
 
-Returns base64 encoded strings for language ($iso639) in some $format (mo, po, txt, xml). Use [http://www.loc.gov/standards/iso639-2/php/code_list.php ISO639-1] (2 characters code)
+Returns base64 encoded strings for language ($iso639) in some $format (mo, po, txt, xml). Use [http://www.loc.gov/standards/iso639-2/php/code_list.php ISO639-1] (2 characters code), $program should be 'subdownloader' or 'oscar'
 
 Example output:
 {{{
