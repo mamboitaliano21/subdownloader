@@ -19,16 +19,18 @@ http://www.wxpython.org/download.php#binaries
 
 ===Download IMDbPY source tarball from here:===
 
-http://prdownloads.sourceforge.net/imdbpy/IMDbPY-2.8.tar.gz
+http://prdownloads.sourceforge.net/imdbpy/
 
 Use the console and extract and install:
 {{{
 # cd <dir where you downloaded IMDbPY>
-# tar xvzf ./IMDbPY-2.8.tar.gz
+# tar xvzf ./IMDbPY-*.tar.gz
+# cd IMDbPY*
 # python ./setup.py install
 }}}
 ===Run SubDownloader, I do this from command line, not sure if it works by clicking:===
 {{{
+#cd <dir where you uncompressed SubDownloader>
 # python ./SubDownloader.py
 }}}
 Good luck and keep uploading these subtitles + hashes!
