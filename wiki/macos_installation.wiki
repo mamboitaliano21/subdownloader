@@ -28,9 +28,9 @@ Use the console and extract and install:
 # cd IMDbPY*
 # python ./setup.py install
 }}}
-===Run SubDownloader, I do this from command line, not sure if it works by clicking:===
+===Run !SubDownloader, I do this from command line, not sure if it works by clicking:===
 {{{
 #cd <dir where you uncompressed SubDownloader>
-# python ./SubDownloader.py
+#python ./SubDownloader.py
 }}}
 Good luck and keep uploading these subtitles + hashes!
