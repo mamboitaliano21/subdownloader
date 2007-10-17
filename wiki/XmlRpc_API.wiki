@@ -64,7 +64,7 @@ All field are self-explained
 == SearchSubtitles ==
 *array SearchSubtitles( $token, array(array('sublanguageid' => $sublanguageid, 'moviehash' => $moviehash, 'moviebytesize' => $moviesize, <i>imdbid => $imdbid</i> ),array(...)))*
 
-This function returns information about found subtitles. It is designed making multiple search at once. Note - result is always grupped by MovieHash, MovieByteSize, SubLanguageID, IDSubMovieFile, sorted by seencount descending, max results is 250. When nothing is found, 'data' is empty. If sublanguageid is empty, or have value 'all' - it search in every sublanguage. Also, imdbid parameter is <b>optional</b>.
+This function returns information about found subtitles. It is designed making multiple search at once. Note - result is always grupped by MovieHash, MovieByteSize, SubLanguageID, IDSubMovieFile, sorted by seencount descending, max results is 250. When nothing is found, 'data' is empty. If sublanguageid is empty, or have value 'all' - it search in every sublanguage. Also, imdbid parameter is <b>optional</b>, when used, it is not needed define moviehash and moviebytesize, so you can search subtitle database with imdbid only.
 
 Example output:
 {{{
@@ -103,6 +103,7 @@ Example output:
                     [ISO639] => en
                     [LanguageName] => English
                     [SubDownloadLink] => http://www.opensubtitles.org/download/file/963.gz
+                    [ZipDownloadLink] => http://www.opensubtitles.org/en/download/sub/771
                 )
             [1] => Array
                 (
@@ -137,6 +138,7 @@ Example output:
                     [ISO639] => en
                     [LanguageName] => English
                     [SubDownloadLink] => http://www.opensubtitles.org/download/file/964.gz
+                    [ZipDownloadLink] => http://www.opensubtitles.org/en/download/sub/771
                 )
         )
     [seconds] => 2.378
@@ -146,6 +148,21 @@ Example output:
 All field are self-explained. Note: it returns array with two keys. In first key is array of arrays of found subtitles, in second key is number of seconds as usual.
 
 <b>NOTE</b> The field 'MovieFrames' isn't being send from the server. Make this field optional or just remove it.
+
+== SearchToMail ==
+*array SearchToMail( $token, array( $sublanguageid, $sublanguageid, ...), array( array( 'moviehash' => $moviehash, 'moviesize' => $moviesize), array( 'moviehash' => $moviehash, 'moviesize' => $moviesize), ...) )*
+
+This is possible only for logged-in users. Scenario: user have directory with movies, for which he cannot find subtitles. With this function he subscribe to possible results, when someone else will upload matching subtitles. Once a day (or week...based on users profile) will system send subtitle link by mail to user. *Note for developers*: if it is possible, send moviehashes and moviesizes only for first CD in set (for example movie on two CDs), because users will receive duplicated mails (one for first cd and one for second cd)
+
+Example output:
+{{{
+    [status] => 200 OK
+    [seconds] => 1.211
+}}}
+
+*Fields explanation:*
+if no *sublanguageid* is given (first array is empty), it means system will try to find subtitles in all languages.
+
 
 == CheckSubHash ==
 *array CheckSubHash( $token, array($SubHash, $SubHash, ...) )*
@@ -285,19 +302,6 @@ Example output:
 data is absolute link to subtitles.
 }}}
 
-== SearchToMail ==
-*array SearchToMail( $token, array( $sublanguageid, $sublanguageid, ...), array( array( 'moviehash' => $moviehash, 'moviesize' => $moviesize), array( 'moviehash' => $moviehash, 'moviesize' => $moviesize), ...) )*
-
-This is possible only for logged-in users. Scenario: user have directory with movies, for which he cannot find subtitles. With this function he subscribe to possible results, when someone else will upload matching subtitles. Once a day (or week...based on users profile) will system send subtitle link by mail to user. *Note for developers*: if it is possible, send moviehashes and moviesizes only for first CD in set (for example movie on two CDs), because users will receive duplicated mails (one for first cd and one for second cd)
-
-Example output:
-{{{
-    [status] => 200 OK
-    [seconds] => 1.211
-}}}
-
-*Fields explanation:*
-if no *sublanguageid* is given (first array is empty), it means system will try to find subtitles in all languages.
 
 == DownloadSubtitles ==
 *array DownloadSubtitles( $token, array($IDSubtitleFile, $IDSubtitleFile,...) )*
