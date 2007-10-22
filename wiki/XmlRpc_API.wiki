@@ -444,8 +444,8 @@ Example output for 'troy':
 title - title of movie, id - imdbid
 
 
-== SearchMoviesOnIMDB ==
-*array SearchMoviesOnIMDB( $token, $imdbid )*
+== GetIMDBMovieDetails ==
+*array GetIMDBMovieDetails( $token, $imdbid )*
 
 Returns array, info for $imdbid from imdb.com.
 
