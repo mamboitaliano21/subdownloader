@@ -457,8 +457,8 @@ All field are self-explained.
 = Status codes =
 
 *Successful 2xx*
- 200 OK
- 206 Partial content; message
+ * 200 OK
+ * 206 Partial content; message
 
 *Errors 4xx*
  * 401 Unauthorized
