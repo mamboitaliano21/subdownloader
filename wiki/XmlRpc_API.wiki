@@ -444,6 +444,42 @@ Example output for 'troy':
 title - title of movie, id - imdbid
 
 
+== SearchMoviesOnIMDB ==
+*array SearchMoviesOnIMDB( $token, $imdbid )*
+
+Returns array, info for $imdbid from imdb.com.
+
+Example output for '0480011':
+{{{
+    [status] => 200 OK
+    [data] => Array
+       (
+            [data_cast] => Array
+                (
+                    [_0000096] => Gillian Anderson
+                    [_0245705] => Danny Dyer
+                    ...
+                )
+            [rating] => 5.9
+            [cover] => http://ia.imdb.com/media/imdb/01/I/48/24/52/10m.jpg
+            [id] => 0480011
+            [votes] => 919
+            [title] => Straightheads
+            [data_aka] => Array
+                (
+                    [0] => Closure (USA) (DVD title)
+                )
+
+            [year] => 2007            
+            ...
+       )
+    [seconds] => 0.441
+}}}
+ 
+*Fields explanation:*
+for example in data_cast key is used as imdbid (without _), all other fields are self-explained.
+
+
 == AutoUpdate ==
 *array AutoUpdate ( $program_name )*
 
