@@ -415,6 +415,35 @@ Example output:
 *Fields explanation:*
 data - base64 encoded contents
 
+== SearchMoviesOnIMDB ==
+*array SearchMoviesOnIMDB( $token, $query )*
+
+Returns array of movies, which was found on imdb.com, query is first fixed for some strings (deleted dvdrip and so on)
+
+Example output for 'troy':
+{{{
+    [status] => 200 OK
+    [data] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 0332452
+                    [title] => Troy (2004)
+                )
+
+            [1] => Array
+                (
+                    [id] => 0340477
+                    [title] => Helen of Troy (2003) (TV)
+                )
+            ...
+    [seconds] => 0.441
+}}}
+ 
+*Fields explanation:*
+title - title of movie, id - imdbid
+
+
 == AutoUpdate ==
 *array AutoUpdate ( $program_name )*
 
@@ -473,4 +502,4 @@ All field are self-explained.
  * 410 Other or unknown error
 
 = TODO =
-return more info in UploadSubtitles()
+none this time
