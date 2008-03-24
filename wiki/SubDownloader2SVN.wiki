@@ -1,7 +1,7 @@
 #labels Featured,Phase-QA,Phase-Support
 #Help for SVN usage
 
-= Where's the START button? How to i execute it? =
+= Where's the START button? How to I execute it? =
 
 Whether you want to run in CLI (Command Line Interface) or GUI (Graphical User Interface), the only file you'll need to call is *_run.py_*.
 
