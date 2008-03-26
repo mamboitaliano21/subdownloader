@@ -24,3 +24,4 @@ You might have to change subdownloader root directory name.
 If you executed "svn checkout http://subdownloader.googlecode.com/svn/trunk/ subdownloader-read-only", do the following:
 
  * Unix: _mv /path/to/subdownloader-read-only /path/to/subdownloader/subdownloader_
+ * DOS: rename \path\to\subdownloader-read-only \path\to\subdownloader
