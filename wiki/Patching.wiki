@@ -1,0 +1,12 @@
+#labels Featured,Phase-Deploy
+= How to Apply a Patch =
+
+Ok, you just downloaded a patch and you don't have a clue how to apply it, right?
+
+Here's the simple thing to do:
+{{{
+cd /path/to/subdownloader
+patch -p0 <new-patch>
+}}}
+
+Hope that helps. Anymore information about patching can be found [http://www.cpqlinux.com/patch.html here].
