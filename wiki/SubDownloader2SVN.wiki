@@ -1,7 +1,19 @@
 #labels Featured,Phase-QA,Phase-Support
-#Help for SVN usage
+=Help for SVN usage=
 
-= Where's the START button? How to I execute it? =
+== Current SVN features ==
+ * Download subtitles (CLI/GUI)
+ * Choose what subtitle to download (CLI/GUI)
+ * Upload subtitles (CLI)
+ * Correct upload information (CLI)
+ * SSP - Smart Subtitle Pick (CLI/GUI)
+ * Debug mode (CLI)
+ * Quiet mode (CLI)
+ * Interactive mode (CLI)
+ * Proxy support (CLI/GUI)
+ * Logging output to file or/and stdout
+
+== Ok, where do I start? How do I execute it? ==
 
 Whether you want to run in CLI (Command Line Interface) or GUI (Graphical User Interface), the only file you'll need to call is *_run.py_*.
 
@@ -9,9 +21,9 @@ Common example: _python run.py --help_
 
 ----
 
-= Problems on first time run =
+== Problems on first time run ==
 
-==Is it complaining about 'subdownloader' existance?==
+===Is it complaining about 'subdownloader' existance?===
 {{{
 Traceback (most recent call last):
   File "run.py", line 40, in <module>
