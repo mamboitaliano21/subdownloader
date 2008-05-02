@@ -4,6 +4,7 @@
 == Current SVN features ==
  * Download subtitles (CLI/GUI)
  * Choose what subtitle to download (CLI/GUI)
+ * Subtitle automatic rename (CLI/GUI)
  * Upload subtitles (CLI)
  * Correct upload information (CLI)
  * SSP - Smart Subtitle Pick (CLI/GUI)
