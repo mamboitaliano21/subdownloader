@@ -11,7 +11,7 @@
  * Debug mode (CLI)
  * Quiet mode (CLI)
  * Interactive mode (CLI)
- * Proxy support (CLI/GUI)
+ * Proxy support (CLI)
  * Logging output to file or/and stdout
 
 == Ok, where do I start? How do I execute it? ==
