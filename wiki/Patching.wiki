@@ -8,6 +8,6 @@ Here's the simple thing to do:
 cd /path/to/subdownloader
 patch -p0 <patch_file
 }}}
-*dont remove the '<' from there
+*(dont remove the '<' from there)
 
 Hope that helps. Anymore information about patching can be found [http://www.cpqlinux.com/patch.html here].
