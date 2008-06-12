@@ -1,14 +1,15 @@
 #summary How to install and run SubDownloader on Windows
 
+= version 2.0: Install from sources =
 
-= Method 1: Installer =
+  * Install [http://www.python.org/ftp/python/2.5.2/python-2.5.2.msi python 2.5]
+  * Install latest [http://www.riverbankcomputing.co.uk/static/Downloads/PyQt4/PyQt-Py2.5-gpl-4.4.2-1.exe PyQT for Windows]
+  * Download and uncompress the latest tarball [http://subdownloader.googlecode.com/files/subdownloader-SVN_r295.zip sources]
+  * *Graphical Interface:* Execute "_run.py_"
+  * *Command line version:* Execute "_run.py --help_" to see all the options available
+
+= version 1.2.9: Windows Installer =
 
 Download and install [http://subdownloader.googlecode.com/files/subdownloader1.2.9.exe Windows Installer 1.2.9]
 
-= Method 2: From sources =
-
-    * Install python 2.5
-    * Install wxpython 2.8.3
-    * Install imdbpy 2.9
-    * Download and uncompress the latest 1.2.9 [http://subdownloader.googlecode.com/files/sources.1.2.9.zip sources]
-    * Run Subdownloader.py 
+*Note:* It may not run for Windows Vista or some versions of XP
