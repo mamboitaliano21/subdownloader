@@ -1,6 +1,6 @@
 #summary How to install and run SubDownloader on GNU/Linux
 
-=Instructions=
+=Subdownloader 2.0 beta for GNU/Linux=
   * Download and install:
     * python2.5
     * python-qt4
