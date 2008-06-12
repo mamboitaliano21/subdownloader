@@ -2,7 +2,7 @@
 
 = version 2.0 beta: Install from sources =
 
-  * Install [http://www.python.org/ftp/python/2.5.2/python-2.5.2.msi python 2.5]
+  * Install [http://www.python.org/ftp/python/2.5.2/python-2.5.2.msi python 2.5 for Windows]
   * Install latest [http://www.riverbankcomputing.co.uk/static/Downloads/PyQt4/PyQt-Py2.5-gpl-4.4.2-1.exe PyQT for Windows]
   * Download and uncompress the latest tarball [http://subdownloader.googlecode.com/files/subdownloader-SVN_r295.zip sources]
   * *Graphical Interface:* Execute "_run.py_"
