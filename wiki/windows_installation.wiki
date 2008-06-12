@@ -3,12 +3,12 @@
 
 = Method 1: Installer =
 
-Download and install Windows Installer 1.2.9
+Download and install [http://subdownloader.googlecode.com/files/subdownloader1.2.9.exe Windows Installer 1.2.9]
 
 = Method 2: From sources =
 
     * Install python 2.5
     * Install wxpython 2.8.3
     * Install imdbpy 2.9
-    * Download and uncompress the last 1.2.9 sources
+    * Download and uncompress the latest 1.2.9 [http://subdownloader.googlecode.com/files/sources.1.2.9.zip sources]
     * Run Subdownloader.py 
