@@ -5,7 +5,7 @@
     * python2.5
     * python-qt4
     * python-mmpython (only needed for Uploading)
-  * Download and uncompress the latest [http://subdownloader.googlecode.com/files/subdownloader-SVN_r295.zip sources]
+  * Download and uncompress the latest [http://subdownloader.googlecode.com/files/subdownloader-SVN_r316.zip sources]
   * *Graphical Interface:* Execute "python _run.py_"
   * *Command line version:* Execute "python _run.py --help_" to see all the options available
 
