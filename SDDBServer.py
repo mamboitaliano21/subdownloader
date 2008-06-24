@@ -31,7 +31,8 @@ import subdownloader.subtitlefile as subtitlefile
 from subdownloader.FileManagement import Subtitle
 
 #SERVER_ADDRESS = "http://dev.opensubtitles.org/xml-rpc"
-SDDB_URL = "http://dbserver.subdownloader.net"
+SDDB_URL = "http://dbserver.subdownloader.net/"
+DEFAULT_INTERFACE= "OSDBServer"
 USER_AGENT = "%s %s"% (APP_TITLE, APP_VERSION)
 
 #"""This class is useful to let the server know who we are, good for statistics,
@@ -147,14 +148,14 @@ class SDDBServer(object):
             self.log.error("Connection timed out. Maybe you need a proxy.")
             raise SDDBServerError,  "Connection timed out"
             
-    def _json_request(self, function,  arguments):
+    def _json_request(self, function,  arguments=""):
         """function is in string format
         arguments is a dictionary containing all function parameters
         """
         self.log.debug("Testing connection to: %s"% SDDB_URL)
         if test_connection(SDDB_URL):
             kwargs = {'function': function, 'args': base64.encodestring(arguments)}
-            url = SDDB_URL + '?' + urllib.urlencode(kwargs)
+            url = SDDB_URL + DEFAULT_INTERFACE+ '?' + urllib.urlencode(kwargs)
             print url
             result = simplejson.load(urllib.urlopen(url))
             return result
@@ -734,3 +735,13 @@ class SDDBServer(object):
         subtitle_file = file(path,'wb')
         subtitle_file.write(s)
         subtitle_file.close()
+
+
+class TestOptions(object):
+    username = 'lola'
+    password = 12345
+    language = 'pt'
+    mode = '--cli'
+    interactive = False
+    proxy = None
+    server = "http://dbserver.subdownloader.net"
