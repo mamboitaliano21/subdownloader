@@ -1,7 +1,10 @@
 #summary How to install and run SubDownloader on Windows
+#labels Featured
 
-= version 2.0 beta: Install from sources =
+= version 2.0 beta: Installer =
+  * Download and install [http://launchpad.net/subdownloader/trunk/2.0/+download/SubDownloader-2.0.exe SubDownloader-2.0.exe]
 
+== or Run from Sources = 
   * Install [http://www.python.org/ftp/python/2.5.2/python-2.5.2.msi python 2.5 for Windows]
   * Install latest [http://www.riverbankcomputing.co.uk/static/Downloads/PyQt4/PyQt-Py2.5-gpl-4.4.2-1.exe PyQT for Windows]
   * Download and uncompress the latest [http://subdownloader.googlecode.com/files/subdownloader-revision_291.zip sources]
@@ -11,9 +14,3 @@
 *Note:* It's a beta version. Please give us your [http://code.google.com/p/subdownloader/issues/list feedback]. Thanks. 
 
 [https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=donations%40subdownloader%2enet&no_shipping=0&no_note=1&tax=0&currency_code=EUR&lc=PT&bn=PP%2dDonationsBF&charset=UTF%2d8 Donations] are also very appreciated to keep this project alive.
-
-= version 1.2.9: Windows Installer =
-
-Download and install [http://subdownloader.googlecode.com/files/subdownloader1.2.9.exe Windows Installer 1.2.9]
-
-*Note:* It may not run for Windows Vista or some versions of XP
