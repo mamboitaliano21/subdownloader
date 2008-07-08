@@ -3,9 +3,8 @@
 =Subdownloader 2.0 beta for GNU/Linux=
 ==From Packages==
 ||Debian/Ubuntu || .deb packages [https://launchpad.net/subdownloader/trunk/2.0 here] ||
-||ArchLinux || Package [http://aur.archlinux.org/packages.php?ID=18316 here] ||
+|| ArchLinux || Package [http://aur.archlinux.org/packages.php?ID=18316 here] ||
 
-==ArchLinux==
 ==Run from sources ==
   * Download and install:
     * python2.5
