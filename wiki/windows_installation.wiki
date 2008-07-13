@@ -2,7 +2,7 @@
 #labels Featured
 
 = version 2.0 beta: Installer =
-  * Download and install [http://launchpad.net/subdownloader/trunk/2.0/ SubDownloader2.exe]
+  * Download and install [http://launchpad.net/subdownloader/trunk/2.0/ SubDownloader2 EXE installer]
 
 == or Run from Sources = 
   * Install [http://www.python.org/ftp/python/2.5.2/python-2.5.2.msi python 2.5 for Windows]
