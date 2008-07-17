@@ -10,7 +10,7 @@
     * python2.5
     * python-qt4
     * python-mmpython (only needed for Uploading)
-  * Download and uncompress the latest [http://subdownloader.googlecode.com/files/subdownloader-revision_301.zip sources]
+  * Download and uncompress the latest [https://launchpad.net/subdownloader/trunk/2.0.3 sources]
   * *Graphical Interface:* Execute "python _run.py_"
   * *Command line version:* Execute "python _run.py --help_" to see all the options available
 
