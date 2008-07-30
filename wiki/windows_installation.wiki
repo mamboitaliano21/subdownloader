@@ -1,13 +1,13 @@
 #summary How to install and run SubDownloader on Windows
 #labels Featured
 
-= version 2.0 beta: Installer =
-  * Download and install [https://launchpad.net/subdownloader/trunk/2.0.3 SubDownloader2 Installer for Windows XP/Vista]
+= version 2.0.x : Installer =
+  * Download and install [https://code.launchpad.net/subdownloader/+download SubDownloader2 Installer for Windows XP/Vista]
 
 == or Run from Sources = 
   * Install [http://www.python.org/ftp/python/2.5.2/python-2.5.2.msi python 2.5 for Windows]
   * Install latest [http://www.riverbankcomputing.co.uk/static/Downloads/PyQt4/PyQt-Py2.5-gpl-4.4.2-1.exe PyQT for Windows]
-  * Download and uncompress the latest [http://launchpad.net/subdownloader/trunk/2.0/ sources ] (TAR.GZ)
+  * Download and uncompress the latest [https://code.launchpad.net/subdownloader/+download sources ] (TAR.GZ)
   * *Graphical Interface:* Execute "python _run.py_" (or double click on the file *run.py*)
   * *Command line version:* Execute "python _run.py --help_" to see all the options available
 
