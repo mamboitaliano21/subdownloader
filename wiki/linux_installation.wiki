@@ -1,8 +1,8 @@
 #summary How to install and run SubDownloader on GNU/Linux
 
-=Subdownloader 2.0 beta for GNU/Linux=
+=Subdownloader 2.0.x beta for GNU/Linux=
 ==From Packages==
-||Debian/Ubuntu || .deb packages [https://launchpad.net/subdownloader/trunk/2.0 here] ||
+||Debian/Ubuntu || .deb packages [https://code.launchpad.net/subdownloader/+download here] ||
 || ArchLinux || Package [http://aur.archlinux.org/packages.php?ID=18316 here] ||
 
 ==Run from sources ==
@@ -10,7 +10,7 @@
     * python2.5
     * python-qt4
     * python-mmpython (only needed for Uploading)
-  * Download and uncompress the latest [https://launchpad.net/subdownloader/trunk/2.0.3 sources]
+  * Download and uncompress the latest [https://code.launchpad.net/subdownloader/+download sources]
   * *Graphical Interface:* Execute "python _run.py_"
   * *Command line version:* Execute "python _run.py --help_" to see all the options available
 
