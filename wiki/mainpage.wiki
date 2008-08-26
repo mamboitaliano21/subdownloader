@@ -1,0 +1,29 @@
+==Latest version: Subdownloader2.0==
+Subdownloader is a Free Open Source tool written in PYTHON for automatic download/upload subtitles for videofiles (DIVX,MPEG,AVI,etc) and DVD's using fast hashing.
+
+Features:
+
+ * *No spyware*, no adware, source code is available
+ * It uses *fast hashing algorithm* (27 GB movies/7 seconds)
+ * Search subtitles *recursively* from your divx folders
+ * Upload entire *series seasons* subtitles in less than 1 minute
+ * *Autodetect language* of the subtitles and many more features
+
+http://subdownloader.googlecode.com/files/ScreenshotSearch.png
+
+==Download & Install==
+
+ * [windows_installation WINDOWS]
+ * [linux_installation GNU/LINUX]
+ * [macos_installation MacOS]
+
+==Demos==
+ * [youtube YOUTUBE demos]
+ * [screenshots SCREENSHOTS]
+
+==Documentation==
+ * [http://subdownloader.files.wordpress.com/2007/03/flow.jpg How to use the program]
+
+==Developers==
+ * [http://trac.opensubtitles.org/projects/opensubtitles/wiki/XMLRPC API Docummentation]
+ * [http://trac.opensubtitles.org/projects/opensubtitles/wiki/HashSourceCodes Hashing Function]
