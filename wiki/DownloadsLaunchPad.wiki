@@ -1,1 +1,1 @@
-Downloads moved [https://launchpad.net/subdownloader/trunk/2.0 here].
+Downloads moved [https://launchpad.net/subdownloader/+download here].
