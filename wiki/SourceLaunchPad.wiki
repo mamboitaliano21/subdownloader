@@ -1,1 +1,1 @@
-We have moved the sources to [http://bazaar.launchpad.net/~capiscuas/subdownloader/trunk/changes LaunchPad]
+We have moved the sources to [https://code.launchpad.net/subdownloader LaunchPad]
