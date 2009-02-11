@@ -1,1 +1,3 @@
-We have moved the issues/bugs to [https://bugs.launchpad.net/subdownloader LaunchPad] 
+We have moved the issues/bugs to [https://bugs.launchpad.net/subdownloader LaunchPad].
+
+For issues about the Windows Shareware Version. Please don't use Launchpad (not allowed), ask them [http://code.google.com/p/subdownloader/issues/list here].
