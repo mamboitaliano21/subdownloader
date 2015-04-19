@@ -1,0 +1,1 @@
+page moved to http://trac.opensubtitles.org/projects/opensubtitles/wiki/HashSourceCodes

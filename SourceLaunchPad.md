@@ -1,0 +1,1 @@
+We have moved the sources to [LaunchPad](https://code.launchpad.net/subdownloader)
